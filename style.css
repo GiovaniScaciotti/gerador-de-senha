@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  font-size: x-large;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: scroll;
+  background-image: url("https://i.pinimg.com/originals/5a/c1/29/5ac1296b709f4427d4c7785a322d78a2.png");
+  cursor: all-scroll;
+}
+
+main {
+  padding: 20px;
+  box-shadow: 10px 10px 10px rgb(195, 0, 255);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+main > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  padding: 5px;
+  outline: none;
+  accent-color: rgb(91, 19, 158);
+  border-color: blueviolet;
+}
+
+input[type=checkbox] {
+  width: 18px;
+  height: 18px;
+}
+
+input[type=range] {
+  width: 90%;
+}
+
+button {
+  background-color: rgb(164, 107, 218);
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 5px;
+}
